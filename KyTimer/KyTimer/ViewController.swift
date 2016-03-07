@@ -43,6 +43,16 @@ class ViewController: NSViewController {
     func update() {
         print("Minute:" + String(minute));
         self.playMusic("pikapi.mp3");
+        self.showDialog("KyTimer", content: self.content);
+    }
+    
+    func showDialog(title: String, content: String) {
+        let alert = NSAlert();
+        alert.addButtonWithTitle("Ok");
+        alert.messageText = "KyTimer";
+        alert.informativeText = content;
+        alert.runModal();
+        exit(0);
     }
 }
 
