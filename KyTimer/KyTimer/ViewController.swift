@@ -11,6 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
     @IBOutlet weak var contentTextField: NSTextField!
     @IBOutlet weak var timerTextField: NSTextField!
+    @IBOutlet weak var timerButton: NSButton!
     var minute: Double = 0;
     var todo: String = "";
     var timer: NSTimer? = nil;
@@ -23,6 +24,7 @@ class ViewController: NSViewController {
     
     @IBAction func fireTimer(sender: AnyObject) {
         self.updateModel();
+        self.updateView();
         timer = NSTimer.scheduledTimerWithTimeInterval(minute*60, target: self, selector: "timesUp", userInfo: nil, repeats: false)
     }
     
@@ -35,6 +37,12 @@ class ViewController: NSViewController {
     func updateModel() {
         self.todo = self.contentTextField.stringValue;
         self.minute =  self.stringToNumber(timerTextField.stringValue);
+    }
+    
+    func updateView() {
+        self.contentTextField.enabled = false;
+        self.timerTextField.enabled = false;
+        self.timerButton.enabled = false;
     }
     
     func playMusic(name: String) {

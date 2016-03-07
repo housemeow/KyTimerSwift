@@ -722,6 +722,7 @@
                     </view>
                     <connections>
                         <outlet property="contentTextField" destination="WmY-oE-2kb" id="HzR-yy-fUG"/>
+                        <outlet property="timerButton" destination="dK5-X5-44z" id="joi-5t-aFx"/>
                         <outlet property="timerTextField" destination="EIv-Df-ncG" id="Vu1-hQ-bhC"/>
                     </connections>
                 </viewController>
