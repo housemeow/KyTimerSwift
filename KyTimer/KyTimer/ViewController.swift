@@ -9,10 +9,11 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    @IBOutlet weak var contentTextField: NSTextField!
     @IBOutlet weak var timerTextField: NSTextField!
-    var timer: NSTimer? = nil;
     var minute: Double = 0;
-    var content: String = "要做事啦！";
+    var todo: String = "";
+    var timer: NSTimer? = nil;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +22,19 @@ class ViewController: NSViewController {
     }
     
     @IBAction func fireTimer(sender: AnyObject) {
-        minute =  self.stringToNumber(timerTextField.stringValue);
-        timer = NSTimer.scheduledTimerWithTimeInterval(minute*60, target: self, selector: "update", userInfo: nil, repeats: false)
+        self.updateModel();
+        timer = NSTimer.scheduledTimerWithTimeInterval(minute*60, target: self, selector: "timesUp", userInfo: nil, repeats: false)
     }
     
     override var representedObject: AnyObject? {
         didSet {
             // Update the view, if already loaded.
         }
+    }
+    
+    func updateModel() {
+        self.todo = self.contentTextField.stringValue;
+        self.minute =  self.stringToNumber(timerTextField.stringValue);
     }
     
     func playMusic(name: String) {
@@ -40,10 +46,10 @@ class ViewController: NSViewController {
         return NSString(string: string).doubleValue;
     }
     
-    func update() {
+    func timesUp() {
         print("Minute:" + String(minute));
         self.playMusic("pikapi.mp3");
-        self.showDialog("KyTimer", content: self.content);
+        self.showDialog("KyTimer", content: self.todo);
     }
     
     func showDialog(title: String, content: String) {
