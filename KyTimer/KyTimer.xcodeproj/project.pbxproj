@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21837BD1C8D0B98008ADE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21837BC1C8D0B98008ADE22 /* AppDelegate.swift */; };
+		A21837BF1C8D0B98008ADE22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21837BE1C8D0B98008ADE22 /* ViewController.swift */; };
+		A21837C11C8D0B98008ADE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21837C01C8D0B98008ADE22 /* Assets.xcassets */; };
+		A21837C41C8D0B98008ADE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21837C21C8D0B98008ADE22 /* Main.storyboard */; };
+		A21837CF1C8D0B99008ADE22 /* KyTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21837CE1C8D0B99008ADE22 /* KyTimerTests.swift */; };
+		A21837DA1C8D0B99008ADE22 /* KyTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21837D91C8D0B99008ADE22 /* KyTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21837CB1C8D0B99008ADE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21837B11C8D0B98008ADE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21837B81C8D0B98008ADE22;
+			remoteInfo = KyTimer;
+		};
+		A21837D61C8D0B99008ADE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21837B11C8D0B98008ADE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21837B81C8D0B98008ADE22;
+			remoteInfo = KyTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A21837B91C8D0B98008ADE22 /* KyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21837BC1C8D0B98008ADE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A21837BE1C8D0B98008ADE22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A21837C01C8D0B98008ADE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21837C31C8D0B98008ADE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21837C51C8D0B98008ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21837CA1C8D0B99008ADE22 /* KyTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21837CE1C8D0B99008ADE22 /* KyTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyTimerTests.swift; sourceTree = "<group>"; };
+		A21837D01C8D0B99008ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21837D51C8D0B99008ADE22 /* KyTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21837D91C8D0B99008ADE22 /* KyTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyTimerUITests.swift; sourceTree = "<group>"; };
+		A21837DB1C8D0B99008ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21837B61C8D0B98008ADE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837C71C8D0B99008ADE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837D21C8D0B99008ADE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21837B01C8D0B98008ADE22 = {
+			isa = PBXGroup;
+			children = (
+				A21837BB1C8D0B98008ADE22 /* KyTimer */,
+				A21837CD1C8D0B99008ADE22 /* KyTimerTests */,
+				A21837D81C8D0B99008ADE22 /* KyTimerUITests */,
+				A21837BA1C8D0B98008ADE22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A21837BA1C8D0B98008ADE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21837B91C8D0B98008ADE22 /* KyTimer.app */,
+				A21837CA1C8D0B99008ADE22 /* KyTimerTests.xctest */,
+				A21837D51C8D0B99008ADE22 /* KyTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21837BB1C8D0B98008ADE22 /* KyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A21837BC1C8D0B98008ADE22 /* AppDelegate.swift */,
+				A21837BE1C8D0B98008ADE22 /* ViewController.swift */,
+				A21837C01C8D0B98008ADE22 /* Assets.xcassets */,
+				A21837C21C8D0B98008ADE22 /* Main.storyboard */,
+				A21837C51C8D0B98008ADE22 /* Info.plist */,
+			);
+			path = KyTimer;
+			sourceTree = "<group>";
+		};
+		A21837CD1C8D0B99008ADE22 /* KyTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21837CE1C8D0B99008ADE22 /* KyTimerTests.swift */,
+				A21837D01C8D0B99008ADE22 /* Info.plist */,
+			);
+			path = KyTimerTests;
+			sourceTree = "<group>";
+		};
+		A21837D81C8D0B99008ADE22 /* KyTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21837D91C8D0B99008ADE22 /* KyTimerUITests.swift */,
+				A21837DB1C8D0B99008ADE22 /* Info.plist */,
+			);
+			path = KyTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21837B81C8D0B98008ADE22 /* KyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21837DE1C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimer" */;
+			buildPhases = (
+				A21837B51C8D0B98008ADE22 /* Sources */,
+				A21837B61C8D0B98008ADE22 /* Frameworks */,
+				A21837B71C8D0B98008ADE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KyTimer;
+			productName = KyTimer;
+			productReference = A21837B91C8D0B98008ADE22 /* KyTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21837C91C8D0B99008ADE22 /* KyTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21837E11C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimerTests" */;
+			buildPhases = (
+				A21837C61C8D0B99008ADE22 /* Sources */,
+				A21837C71C8D0B99008ADE22 /* Frameworks */,
+				A21837C81C8D0B99008ADE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21837CC1C8D0B99008ADE22 /* PBXTargetDependency */,
+			);
+			name = KyTimerTests;
+			productName = KyTimerTests;
+			productReference = A21837CA1C8D0B99008ADE22 /* KyTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A21837D41C8D0B99008ADE22 /* KyTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21837E41C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimerUITests" */;
+			buildPhases = (
+				A21837D11C8D0B99008ADE22 /* Sources */,
+				A21837D21C8D0B99008ADE22 /* Frameworks */,
+				A21837D31C8D0B99008ADE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21837D71C8D0B99008ADE22 /* PBXTargetDependency */,
+			);
+			name = KyTimerUITests;
+			productName = KyTimerUITests;
+			productReference = A21837D51C8D0B99008ADE22 /* KyTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21837B11C8D0B98008ADE22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "楊凱霖";
+				TargetAttributes = {
+					A21837B81C8D0B98008ADE22 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A21837C91C8D0B99008ADE22 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A21837B81C8D0B98008ADE22;
+					};
+					A21837D41C8D0B99008ADE22 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A21837B81C8D0B98008ADE22;
+					};
+				};
+			};
+			buildConfigurationList = A21837B41C8D0B98008ADE22 /* Build configuration list for PBXProject "KyTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21837B01C8D0B98008ADE22;
+			productRefGroup = A21837BA1C8D0B98008ADE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21837B81C8D0B98008ADE22 /* KyTimer */,
+				A21837C91C8D0B99008ADE22 /* KyTimerTests */,
+				A21837D41C8D0B99008ADE22 /* KyTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21837B71C8D0B98008ADE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21837C11C8D0B98008ADE22 /* Assets.xcassets in Resources */,
+				A21837C41C8D0B98008ADE22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837C81C8D0B99008ADE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837D31C8D0B99008ADE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21837B51C8D0B98008ADE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21837BF1C8D0B98008ADE22 /* ViewController.swift in Sources */,
+				A21837BD1C8D0B98008ADE22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837C61C8D0B99008ADE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21837CF1C8D0B99008ADE22 /* KyTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21837D11C8D0B99008ADE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21837DA1C8D0B99008ADE22 /* KyTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21837CC1C8D0B99008ADE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21837B81C8D0B98008ADE22 /* KyTimer */;
+			targetProxy = A21837CB1C8D0B99008ADE22 /* PBXContainerItemProxy */;
+		};
+		A21837D71C8D0B99008ADE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21837B81C8D0B98008ADE22 /* KyTimer */;
+			targetProxy = A21837D61C8D0B99008ADE22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21837C21C8D0B98008ADE22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21837C31C8D0B98008ADE22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21837DC1C8D0B99008ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A21837DD1C8D0B99008ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A21837DF1C8D0B99008ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A21837E01C8D0B99008ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A21837E21C8D0B99008ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyTimer.app/Contents/MacOS/KyTimer";
+			};
+			name = Debug;
+		};
+		A21837E31C8D0B99008ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyTimer.app/Contents/MacOS/KyTimer";
+			};
+			name = Release;
+		};
+		A21837E51C8D0B99008ADE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KyTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A21837E61C8D0B99008ADE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KyTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelly.KyTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KyTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21837B41C8D0B98008ADE22 /* Build configuration list for PBXProject "KyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21837DC1C8D0B99008ADE22 /* Debug */,
+				A21837DD1C8D0B99008ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21837DE1C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21837DF1C8D0B99008ADE22 /* Debug */,
+				A21837E01C8D0B99008ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A21837E11C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21837E21C8D0B99008ADE22 /* Debug */,
+				A21837E31C8D0B99008ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A21837E41C8D0B99008ADE22 /* Build configuration list for PBXNativeTarget "KyTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21837E51C8D0B99008ADE22 /* Debug */,
+				A21837E61C8D0B99008ADE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21837B11C8D0B98008ADE22 /* Project object */;
+}
