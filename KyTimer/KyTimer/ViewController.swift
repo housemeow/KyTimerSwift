@@ -15,6 +15,7 @@ class ViewController: NSViewController {
     var minute: Double = 0;
     var todo: String = "";
     var timer: NSTimer? = nil;
+    var seconds: Int32 = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +26,11 @@ class ViewController: NSViewController {
     @IBAction func fireTimer(sender: AnyObject) {
         self.updateModel();
         self.updateView();
-        timer = NSTimer.scheduledTimerWithTimeInterval(minute*60, target: self, selector: "timesUp", userInfo: nil, repeats: false)
+        
+        seconds = (Int32)(minute * 60);
+
+        timerTextField.stringValue = String(format: "%d:%2d", seconds / 60, seconds % 60);
+        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.tick), userInfo: nil, repeats: true)
     }
     
     override var representedObject: AnyObject? {
@@ -50,11 +55,22 @@ class ViewController: NSViewController {
         sound?.play();
     }
     
+    func tick() {
+        seconds -= 1;
+        timerTextField.stringValue = String(format: "%d:%2d", seconds / 60, seconds % 60);
+        updateView();
+        if(seconds == 0) {
+            timesUp();
+        }
+    }
+    
     func stringToNumber(string: String)->Double {
         return NSString(string: string).doubleValue;
     }
     
     func timesUp() {
+        timer?.invalidate();
+        timer = nil;
         print("Minute:" + String(minute));
         self.playMusic("pikapi.mp3");
         self.showDialog("KyTimer", content: self.todo);
